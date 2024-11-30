@@ -1,0 +1,53 @@
+p{
+    background-color: yellow;
+    margin: 50px;
+    font-size: larger;
+    text-decoration: dashed;
+}
+/* yo comment here*/
+
+footer{
+    padding: 50px;
+    background-color: rgb(240, 128, 128);
+}
+
+.yolo{
+    padding: 20px 50px ;
+    background-color: lightcoral;
+    border: solid 30px green;
+    /* border radius can be used without border */
+    border-radius: 50%;
+    float: right;
+}
+
+button{
+    
+}
+
+aside{
+    height:180px;
+} 
+
+#nav{
+    display:inline;
+}
+
+.flex-container{
+    height:600px;
+    width:600px;
+    background-color: blue;
+    border: double rgb(27, 64, 74) 10px;
+    border-radius:10%;
+    display:flex;
+    /* flex-direction: column; */
+}
+.flex-element{
+    background-color: aqua;
+    height:700px;
+    width:300px;
+    border: solid 5px white;
+}
+
+.flex-container .flex-element:nth-child(){
+    background-color: red;
+}
